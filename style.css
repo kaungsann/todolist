@@ -1,0 +1,67 @@
+body{
+    background-color: #343a40;
+}
+.inputContainer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    border-radius: 20px;
+    padding-left: 10px;
+    padding: 10px;
+    outline: none;
+    width: 450px;
+}
+.button{
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: darkturquoise;
+    color: black;
+}
+.commentCONtianer{
+    margin-bottom: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    background-color: whitesmoke;
+    margin-right: 15px;
+}
+.newdiv{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+.resultcontainer{
+    display: flex;
+   margin-bottom: 15px;
+    margin-top: 50px;
+}
+.delete{
+    margin: 5px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: darkslategrey;
+    padding: 15px;
+    border-radius: 15px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.delete:hover{
+    opacity: 0.8;
+}
+.date{
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+}
