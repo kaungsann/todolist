@@ -20,7 +20,7 @@ body{
     background-color: darkturquoise;
     color: black;
 }
-.commentCONtianer{
+.commentCONtianer , .newStore{
     margin-bottom: 15px;
     margin-top: 50px;
     display: flex;
@@ -31,6 +31,7 @@ body{
     height: 350px;
     background-color: whitesmoke;
     margin-right: 15px;
+    flex-wrap: wrap;
 }
 .newdiv{
     font-size: 25px;
@@ -44,6 +45,7 @@ body{
     display: flex;
    margin-bottom: 15px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .delete{
     margin: 5px ;
@@ -63,5 +65,5 @@ body{
 .date{
     font-size: 30px;
     font-weight: bolder;
-    color: brown;
+    color: black;
 }
